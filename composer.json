@@ -1,0 +1,20 @@
+{
+  "name": "cody92/php-refactoring-examples",
+  "description": "Refactoring examples from book written in PHP",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ionut Codreanu",
+      "email": "codydoc92@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "RefactoringExamples\\": "src/"
+    }
+  },
+  "require": {
+    "phpunit/phpunit": "5.3.x-dev"
+  }
+}
